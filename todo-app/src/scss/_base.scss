@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400&display=swap');
+
+$desktop: 1440px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
+$black: #181717;
+$white: #fdfdfd;
+
+//? Dark Theme
+$--CheckBackground2: (
+   linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%),
+   100%
+);
+$--CheckBackground: linear-gradient(
+   90deg,
+   rgba(210, 53, 209, 1) 0%,
+   rgba(47, 166, 214, 1) 79%,
+   rgba(1, 198, 215, 1) 100%
+);
+// background: rgb(210,53,209);
+// background: linear-gradient(90deg, rgba(210,53,209,1) 0%, rgba(47,166,214,1) 79%, rgba(1,198,215,1) 100%);
+
+$--VeryDarkBlue: hsl(235, 21%, 11%);
+$--VeryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+$--LightGrayishBlue: hsl(234, 39%, 85%);
+$--LightGrayishBlueHover: hsl(236, 33%, 92%);
+$--DarkGrayishBlue: hsl(234, 11%, 52%);
+$--VeryDarkGrayishBlue: hsl(233, 14%, 35%);
+$--VeryDarkGrayishBlue: hsl(237, 14%, 26%);
+
+button {
+   border: none;
+   outline: none;
+   background: none;
+}
+img {
+   width: 100%;
+   object-fit: cover;
+}
